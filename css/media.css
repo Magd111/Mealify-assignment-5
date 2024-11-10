@@ -1,0 +1,295 @@
+@media screen  and (max-width:992px){
+   
+    header{
+        height: 135vh;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .home-text{
+        width: 100%;
+    }
+    .home-image{
+        width: 70%;
+        margin-top: 400px;
+    }
+    /* ..................... */
+    .chefs-master{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .chefs-card{
+        width: 46%;
+        margin: 25px 10px;
+    }
+    /* ...................... */
+    .image-gallery img{
+        width: 100%;
+        height: auto;
+    }
+    /* ............... */
+    .contact-content{
+        display: flex;
+        justify-content: space-around ;
+        flex-direction:row;
+    }
+    .contact-type{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.5px 0.5px;
+        padding-left: 1px;
+        background-color: #F5F5F5;
+    }
+    /* ......................... */
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .footer-one{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-between{
+        order: 1;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .footer-icon .icon i{
+        font-size: 20px;
+        margin: 0 15px;
+    }
+    
+    footer h1 h2{
+        margin: 0;
+        padding: 0;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    .footer-form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+    .footer-form input{
+        flex-grow: 1;
+        padding: 10px 0 ;
+    }
+    .footer-form button{
+        justify-content: center;
+        padding: 8px 5px;
+        height: auto;
+        border: none;
+    }
+}
+@media screen  and (max-width:768px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar h1{
+        margin: 0;
+    }
+    .nav-links ul{
+        padding: 0;
+    }
+    header{
+        height: 135vh;
+    }
+    /* ................... */
+    .home{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .home-text{
+        width: 100%;
+    }
+    .home-image{
+        width: 70%;
+        margin-top: 550px;
+    }
+    /* ..................... */
+    .chefs-master{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .chefs-card{
+        width: 45%;
+        margin: 25px 10px;
+    }
+    /* ...................... */
+    .image-gallery img{
+        width: 100%;
+        height: auto;
+    }
+    /* ............... */
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-type{
+        width: 100%;
+    }
+     .form-first{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-first input{
+        width: auto; 
+        align-items: center;
+    }
+    /* ......................... */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-one{
+        width: auto;
+        margin-bottom: 50px;
+    }
+    footer h1 h2{
+        margin: 0;
+        padding: 0;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    .footer-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .footer-between{
+        order: 0;
+    }
+    
+    .footer-form input{
+        width: 100%;
+        padding: 10px 0 ;
+    }
+    .footer-form button{
+        justify-content: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+@media screen  and (max-width:576px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar h1{
+        margin: 0;
+    }
+    .nav-links ul{
+        padding: 0;
+    }
+    header{
+        height: 130vh;
+    }
+    /* ................... */
+    .home{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .home-text{
+        width: 100%;
+    }
+    .home-image{
+        width: 70%;
+        margin-top: 500px;
+    }
+    /* ..................... */
+    .chefs-master{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .chefs-card{
+        width: 80%;
+        margin: 50px 0;
+    }
+    /* ...................... */
+    .image-gallery img{
+        width: 100%;
+        height: auto;
+    }
+    /* ............... */
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-type{
+        width: 100%;
+    }
+     .form-first{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-first input{
+        width: auto; 
+        align-items: center;
+    }
+    /* ......................... */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-one{
+        width: auto;
+        margin-bottom: 50px;
+    }
+    footer h1 h2{
+        margin: 0;
+        padding: 0;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    .footer-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .footer-form input{
+        width: 100%;
+        padding: 10px 0 ;
+    }
+    .footer-form button{
+        justify-content: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
